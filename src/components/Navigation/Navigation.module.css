@@ -1,0 +1,85 @@
+.NavbarContainer{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    z-index:10;
+}
+.MainNavbar{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color:#00000085;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.BrandLogo{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+}
+.logoName{
+    height: 45px;
+    width: 110px;
+}
+.navListContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+}
+.navList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+.navLink{
+    text-decoration: none;
+    color: var(--color2);
+    margin: 0 15px;
+    font-family: var(--H_Font);
+    font-size: 20px;
+    cursor: pointer;
+}
+.navLink:hover{
+    color: var(--color4);
+}
+.Offcanvas_container{
+    background-color: #ffffff;
+}
+.OffcanvasList{
+    list-style: none;
+    padding: 10px;
+    line-height: 40px;
+}
+.OffcanvasLink{
+    text-decoration: none;
+    color: var(--color2);
+    margin: 20px;
+    font-family: var(--H_Font);
+    font-size: 20px;
+    cursor: pointer;
+}
+.Offcanvas_button{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #EDF1D6;
+    color: #435334;
+    margin: 0px;
+    padding: 0px 0px;
+    align-items: center;
+}
+.Offcanvas_button:hover{
+    color: #EDF1D6;
+    background-color: #435334;
+}

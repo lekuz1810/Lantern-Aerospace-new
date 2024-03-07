@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #ffffff;
+}
+
+:root{
+    --color1:#ff9300;
+    --color2:#28a9c1;
+    --color3:#504c4b;
+    --color4:#ffffff;
+    --color5:#000000;
+    --H_Font:"Oswald", sans-serif;
+    --P_Font1:"Lato", sans-serif;
+    --P_Font2: "Sulphur Point", sans-serif;
+    --P_Font3: "Courier Prime", monospace;
+}
